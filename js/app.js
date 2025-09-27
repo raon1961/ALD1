@@ -194,7 +194,7 @@ function App() {
     React.createElement("h1", {
       className: "text-2xl sm:text-3xl font-bold mb-6 fixed top-4 left-4 z-50",
       style: { fontFamily: "Sequel100Black, sans-serif" }
-    }, "MASATO"),
+    }, "F1are"),
 
     // 카드 그리드
     React.createElement(
