@@ -52,7 +52,7 @@ const members = [
       "images/jeong.jpeg"
     ], 
     detailImg: "images/jeongp.jpeg", 
-    bio: "과거 지원서 쓰던 사토에게 한마디 마사토 지금 많은 사람과 만나서 성장 할고 있어!! 너가 생각보다 알려준 사람도 응원해준 사람도 있어!" 
+    bio: "많은 응원과 사랑을 보내주세요!" 
   },
   { 
     id: 7, 
@@ -70,7 +70,7 @@ const members = [
       "images/eum.jpeg"
     ], 
     detailImg: "images/eump.jpeg", 
-    bio: "미래 파이널을 앞둔 사토에게 한마디 그대로 데뷔하고 여러 사람한테 감사를 전달해야돼 잘 할 수 있어 마사토" 
+    bio: "제가 누구인지 확실히 보여드리겠습니다!" 
   },
   { 
     id: 9, 
@@ -79,7 +79,7 @@ const members = [
       "images/sen.jpeg"
     ], 
     detailImg: "images/senp.jpeg", 
-    bio: "모두의 심장이 뜨거워지도록 열정과 성실함을 보여드리겠습니다!" 
+    bio: "내 미소를 보고 너가 행복해졌으면 좋겠어! 사랑해! 다이스키~" 
   },
    { 
     id: 10, 
@@ -88,7 +88,7 @@ const members = [
       "images/hu.jpeg"
     ], 
     detailImg: "images/hup.jpeg", 
-    bio: "모두의 심장이 뜨거워지도록 열정과 성실함을 보여드리겠습니다!" 
+    bio: "지금은 부족할 수 있지만,끝까지 성장하는 모습으로 보답하겠습니다!" 
   },
    { 
     id: 11, 
