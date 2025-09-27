@@ -1,7 +1,7 @@
 const members = [
   { 
     id: 1, 
-    name: "WE WANT", 
+    name: "YOO KANG MIN", 
     profileImgs: [
       "images/mst1.jpeg", 
       "images/mst2.jpeg"
@@ -11,7 +11,7 @@ const members = [
   },
   { 
     id: 2, 
-    name: "MASATO'S", 
+    name: "CHUEI LI YU", 
     profileImgs: [
       "images/mst3.jpeg", 
       "images/mst4.jpeg"
@@ -21,7 +21,7 @@ const members = [
   },
   { 
     id: 3, 
-    name: "DEBUT", 
+    name: "CHEN KAI WEN", 
     profileImgs: [
       "images/mst5.jpeg", 
       "images/mst6.jpeg"
@@ -31,7 +31,7 @@ const members = [
   },
   { 
     id: 4, 
-    name: "あおやぎ まさと", 
+    name: "PARK DONG GYU", 
     profileImgs: [
       "images/mst7.jpeg", 
       "images/mst8.jpeg"
@@ -41,7 +41,7 @@ const members = [
   },
   { 
     id: 5, 
-    name: "마사토", 
+    name: "KIM JUN MIN", 
     profileImgs: [
       "images/mst9.jpeg", 
       "images/mst10.jpeg"
@@ -51,7 +51,7 @@ const members = [
   },
   { 
     id: 6, 
-    name: "MASATO", 
+    name: "JUN LEE JUNG", 
     profileImgs: [
       "images/mst11.jpeg", 
       "images/mst12.jpeg"
@@ -61,7 +61,7 @@ const members = [
   },
   { 
     id: 7, 
-    name: "#마술사토", 
+    name: "KANG WOO JIN", 
     profileImgs: [
       "images/mst13.jpeg", 
       "images/mst14.jpeg"
@@ -71,7 +71,7 @@ const members = [
   },
   { 
     id: 8, 
-    name: "#탁구사토", 
+    name: "JANG HAN EUM", 
     profileImgs: [
       "images/mst15.jpeg", 
       "images/mst16.jpeg"
@@ -81,7 +81,27 @@ const members = [
   },
   { 
     id: 9, 
-    name: "#핑크사토", 
+    name: "SEN", 
+    profileImgs: [
+      "images/mst17.jpeg", 
+      "images/mst18.jpeg"
+    ], 
+    detailImg: "images/mst-pro9.jpeg", 
+    bio: "모두의 심장이 뜨거워지도록 열정과 성실함을 보여드리겠습니다!" 
+  }
+   { 
+    id: 10, 
+    name: "KIN IN HU", 
+    profileImgs: [
+      "images/mst17.jpeg", 
+      "images/mst18.jpeg"
+    ], 
+    detailImg: "images/mst-pro9.jpeg", 
+    bio: "모두의 심장이 뜨거워지도록 열정과 성실함을 보여드리겠습니다!" 
+  }
+   { 
+    id: 11, 
+    name: "MASATO", 
     profileImgs: [
       "images/mst17.jpeg", 
       "images/mst18.jpeg"
