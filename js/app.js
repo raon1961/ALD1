@@ -4,110 +4,99 @@ const members = [
     id: 1, 
     name: "YOO KANG MIN", 
     profileImgs: [
-      "images/mst1.jpeg", 
-      "images/mst2.jpeg"
+      "images/min.jpeg"
     ], 
-    detailImg: "images/mst-pro1.jpeg", 
+    detailImg: "images/minp.jpeg", 
     bio: "사토가 생각한 사토의 이미지는 내 생각보다 귀여운 듯" 
   },
   { 
     id: 2, 
     name: "CHUEI LI YU", 
     profileImgs: [
-      "images/mst3.jpeg", 
-      "images/mst4.jpeg"
+      "images/yu.jpeg", 
     ], 
-    detailImg: "images/mst-pro2.jpeg", 
+    detailImg: "images/yup.jpeg", 
     bio: "사토가 연습하며 생긴 습관은 스트레칭, 표정연습, 연습일지 쓰기" 
   },
   { 
     id: 3, 
     name: "CHEN KAI WEN", 
     profileImgs: [
-      "images/mst5.jpeg", 
-      "images/mst6.jpeg"
+      "images/wen.jpeg"
     ], 
-    detailImg: "images/mst-pro3.jpeg", 
+    detailImg: "images/wenp.jpeg", 
     bio: "사토가 도전하고 싶은 무대 컨셉은 sexy 컨셉, 열정 컨셉, 귀여운 컨셉" 
   },
   { 
     id: 4, 
     name: "PARK DONG GYU", 
     profileImgs: [
-      "images/mst7.jpeg", 
-      "images/mst8.jpeg"
+      "images/gyu.jpeg"
     ], 
-    detailImg: "images/mst-pro4.jpeg", 
+    detailImg: "images/gyup.jpeg", 
     bio: "사토의 최대 강점은 너무너무해피마사토" 
   },
   { 
     id: 5, 
     name: "KIM JUN MIN", 
     profileImgs: [
-      "images/mst9.jpeg", 
-      "images/mst10.jpeg"
+      "images/jay.jpeg"
     ], 
-    detailImg: "images/mst-pro5.jpeg", 
+    detailImg: "images/jayp.jpeg", 
     bio: "한순간도 놓치지 않고 무대 위에서 모든 걸 불태우겠습니다!" 
   },
   { 
     id: 6, 
     name: "JUN LEE JEONG", 
     profileImgs: [
-      "images/mst11.jpeg", 
-      "images/mst12.jpeg"
+      "images/jeong.jpeg"
     ], 
-    detailImg: "images/mst-pro6.jpeg", 
+    detailImg: "images/jeongp.jpeg", 
     bio: "과거 지원서 쓰던 사토에게 한마디 마사토 지금 많은 사람과 만나서 성장 할고 있어!! 너가 생각보다 알려준 사람도 응원해준 사람도 있어!" 
   },
   { 
     id: 7, 
     name: "KANG WOO JIN", 
     profileImgs: [
-      "images/mst13.jpeg", 
-      "images/mst14.jpeg"
+      "images/jin.jpeg"
     ], 
-    detailImg: "images/mst-pro7.jpeg", 
+    detailImg: "images/jinp.jpeg", 
     bio: "지금 사토에게 힘이 되는 한마디는 응원해주신 모든 사람 위해 끝까지 한게까지 열심히 노력하자!" 
   },
   { 
     id: 8, 
     name: "JANG HAN EUM", 
     profileImgs: [
-      "images/mst15.jpeg", 
-      "images/mst16.jpeg"
+      "images/eum.jpeg"
     ], 
-    detailImg: "images/mst-pro8.jpeg", 
+    detailImg: "images/eump.jpeg", 
     bio: "미래 파이널을 앞둔 사토에게 한마디 그대로 데뷔하고 여러 사람한테 감사를 전달해야돼 잘 할 수 있어 마사토" 
   },
   { 
     id: 9, 
     name: "SEN", 
     profileImgs: [
-      "images/mst17.jpeg", 
-      "images/mst18.jpeg"
+      "images/sen.jpeg"
     ], 
-    detailImg: "images/mst-pro9.jpeg", 
+    detailImg: "images/senp.jpeg", 
     bio: "모두의 심장이 뜨거워지도록 열정과 성실함을 보여드리겠습니다!" 
   },
-  { 
+   { 
     id: 10, 
     name: "KIN IN HU", 
     profileImgs: [
-      "images/mst17.jpeg", 
-      "images/mst18.jpeg"
+      "images/hu.jpeg"
     ], 
-    detailImg: "images/mst-pro9.jpeg", 
+    detailImg: "images/hup.jpeg", 
     bio: "모두의 심장이 뜨거워지도록 열정과 성실함을 보여드리겠습니다!" 
   },
-  { 
+   { 
     id: 11, 
     name: "MASATO", 
     profileImgs: [
-      "images/mst17.jpeg", 
-      "images/mst18.jpeg"
+      "images/to.jpeg"
     ], 
-    detailImg: "images/mst-pro9.jpeg", 
+    detailImg: "images/top.jpeg", 
     bio: "모두의 심장이 뜨거워지도록 열정과 성실함을 보여드리겠습니다!" 
   }
 ];
