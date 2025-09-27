@@ -1,3 +1,4 @@
+// --- members 배열 (쉼표 누락 등 수정됨) ---
 const members = [
   { 
     id: 1, 
@@ -89,7 +90,7 @@ const members = [
     detailImg: "images/mst-pro9.jpeg", 
     bio: "모두의 심장이 뜨거워지도록 열정과 성실함을 보여드리겠습니다!" 
   },
-   { 
+  { 
     id: 10, 
     name: "KIN IN HU", 
     profileImgs: [
@@ -99,7 +100,7 @@ const members = [
     detailImg: "images/mst-pro9.jpeg", 
     bio: "모두의 심장이 뜨거워지도록 열정과 성실함을 보여드리겠습니다!" 
   },
-   { 
+  { 
     id: 11, 
     name: "MASATO", 
     profileImgs: [
@@ -111,35 +112,42 @@ const members = [
   }
 ];
 
-// 스크롤 등장 훅
+// --- 스크롤 등장 훅 (observer 안전하게 정리) ---
 function useScrollAnimation() {
   const [visible, setVisible] = React.useState(false);
-  const ref = React.useRef();
+  const ref = React.useRef(null);
 
   React.useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
     const observer = new IntersectionObserver(
       ([entry]) => setVisible(entry.isIntersecting),
       { threshold: 0.2 }
     );
-    if (ref.current) observer.observe(ref.current);
-    return () => { if(ref.current) observer.unobserve(ref.current); };
+    observer.observe(el);
+    return () => {
+      if (el) observer.unobserve(el);
+      observer.disconnect();
+    };
   }, []);
 
   return [ref, visible];
 }
 
-// 카드
+// --- 카드 컴포넌트 ---
 function MemberCard({ member, onClick }) {
   const [ref, visible] = useScrollAnimation();
   const [index, setIndex] = React.useState(0);
 
   React.useEffect(() => {
-    if (!member.profileImgs || member.profileImgs.length === 0) return;
+    // 안전하게 optional chaining 사용
+    const imgsLength = member?.profileImgs?.length || 0;
+    if (imgsLength === 0) return;
     const interval = setInterval(() => {
-      setIndex((prev) => (prev + 1) % member.profileImgs.length);
-    }, 3000); // 3초마다 변경
+      setIndex((prev) => (prev + 1) % imgsLength);
+    }, 3000);
     return () => clearInterval(interval);
-  }, [member.profileImgs.length]);
+  }, [member?.profileImgs?.length]);
 
   return React.createElement(
     "div",
@@ -163,7 +171,7 @@ function MemberCard({ member, onClick }) {
   );
 }
 
-// SNS 아이콘 섹션
+// --- SNS 섹션 ---
 function SocialSection() {
   const [ref, visible] = useScrollAnimation();
   return React.createElement(
@@ -181,7 +189,7 @@ function SocialSection() {
   );
 }
 
-// 메인 앱
+// --- App ---
 function App() {
   const [selectedMember, setSelectedMember] = React.useState(null);
   const handleCloseModal = () => setSelectedMember(null);
@@ -205,27 +213,28 @@ function App() {
       )
     ),
 
+    // SNS
     React.createElement(SocialSection),
 
     // 모달
-selectedMember &&
-React.createElement("div", {
-  className: "fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50",
-  onClick: handleCloseModal
-},
-  React.createElement("div", {
-    className: "bg-white p-6 rounded-lg w-11/12 max-w-md relative animate-fadeInModal",
-    onClick: e => e.stopPropagation()
-  },
-    React.createElement("button", { className: "absolute top-2 right-2 text-gray-500", onClick: handleCloseModal }, "X"),
-    React.createElement("img", { src: selectedMember.detailImg, alt: selectedMember.name, className: "w-full h-72 mx-auto rounded-lg object-cover" }),
-    React.createElement("h2", {
-      className: "text-2xl sm:text-3xl font-bold mt-4 text-center",
-      style: { fontFamily: "Sequel100Black, sans-serif" }
-    }, selectedMember.name),
-    React.createElement("p", { className: "mt-2 text-gray-600 text-center text-sm sm:text-base" }, selectedMember.bio)
-  )
-)
+    selectedMember &&
+    React.createElement("div", {
+      className: "fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50",
+      onClick: handleCloseModal
+    },
+      React.createElement("div", {
+        className: "bg-white p-6 rounded-lg w-11/12 max-w-md relative animate-fadeInModal",
+        onClick: e => e.stopPropagation()
+      },
+        React.createElement("button", { className: "absolute top-2 right-2 text-gray-500", onClick: handleCloseModal }, "X"),
+        React.createElement("img", { src: selectedMember.detailImg, alt: selectedMember.name, className: "w-full h-72 mx-auto rounded-lg object-cover" }),
+        React.createElement("h2", {
+          className: "text-2xl sm:text-3xl font-bold mt-4 text-center",
+          style: { fontFamily: "Sequel100Black, sans-serif" }
+        }, selectedMember.name),
+        React.createElement("p", { className: "mt-2 text-gray-600 text-center text-sm sm:text-base" }, selectedMember.bio)
+      )
+    )
   );
 }
 
