@@ -7,7 +7,7 @@ const members = [
       "images/min.jpeg"
     ], 
     detailImg: "images/minp.jpeg", 
-    bio: "사토가 생각한 사토의 이미지는 내 생각보다 귀여운 듯" 
+    bio: "행복하게 해드릴게요 ㅎㅎ" 
   },
   { 
     id: 2, 
@@ -16,7 +16,7 @@ const members = [
       "images/yu.jpeg", 
     ], 
     detailImg: "images/yup.jpeg", 
-    bio: "사토가 연습하며 생긴 습관은 스트레칭, 표정연습, 연습일지 쓰기" 
+    bio: "베스트 초이스 리부초이 놓치지 마세요!" 
   },
   { 
     id: 3, 
@@ -25,7 +25,7 @@ const members = [
       "images/wen.jpeg"
     ], 
     detailImg: "images/wenp.jpeg", 
-    bio: "사토가 도전하고 싶은 무대 컨셉은 sexy 컨셉, 열정 컨셉, 귀여운 컨셉" 
+    bio: "지금 입덕하면 찐 팬 가능!!" 
   },
   { 
     id: 4, 
@@ -34,7 +34,7 @@ const members = [
       "images/gyu.jpeg"
     ], 
     detailImg: "images/gyup.jpeg", 
-    bio: "사토의 최대 강점은 너무너무해피마사토" 
+    bio: "지금까지 연습했던 시간들을 플레어를 통해 보여드리겠습니다!" 
   },
   { 
     id: 5, 
@@ -43,7 +43,7 @@ const members = [
       "images/jay.jpeg"
     ], 
     detailImg: "images/jayp.jpeg", 
-    bio: "한순간도 놓치지 않고 무대 위에서 모든 걸 불태우겠습니다!" 
+    bio: "즐기겠습니다~!" 
   },
   { 
     id: 6, 
@@ -61,7 +61,7 @@ const members = [
       "images/jin.jpeg"
     ], 
     detailImg: "images/jinp.jpeg", 
-    bio: "지금 사토에게 힘이 되는 한마디는 응원해주신 모든 사람 위해 끝까지 한게까지 열심히 노력하자!" 
+    bio: "여러분들의 최애가 되는 그날까지!!!" 
   },
   { 
     id: 8, 
