@@ -52,7 +52,7 @@ const members = [
   },
   { 
     id: 6, 
-    name: "JUN LEE JUNG", 
+    name: "JUN LEE JEONG", 
     profileImgs: [
       "images/mst11.jpeg", 
       "images/mst12.jpeg"
