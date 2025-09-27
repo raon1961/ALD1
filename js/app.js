@@ -83,7 +83,7 @@ const members = [
   },
    { 
     id: 10, 
-    name: "KIN IN HU", 
+    name: "KIM IN HU", 
     profileImgs: [
       "images/hu.jpeg"
     ], 
