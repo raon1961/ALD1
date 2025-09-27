@@ -88,7 +88,7 @@ const members = [
     ], 
     detailImg: "images/mst-pro9.jpeg", 
     bio: "모두의 심장이 뜨거워지도록 열정과 성실함을 보여드리겠습니다!" 
-  }
+  },
    { 
     id: 10, 
     name: "KIN IN HU", 
@@ -98,7 +98,7 @@ const members = [
     ], 
     detailImg: "images/mst-pro9.jpeg", 
     bio: "모두의 심장이 뜨거워지도록 열정과 성실함을 보여드리겠습니다!" 
-  }
+  },
    { 
     id: 11, 
     name: "MASATO", 
