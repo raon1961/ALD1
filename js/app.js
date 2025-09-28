@@ -166,7 +166,7 @@ function SocialSection() {
   return React.createElement(
     "div",
     { ref: ref, className: `mt-12 flex justify-center space-x-6 opacity-0 transform translate-y-10 transition duration-700 ${visible ? "opacity-100 translate-y-0" : ""}` },
-    React.createElement("a", { href: "https://youtube.com/@boysplanet.official?si=uWoML6FSkZG1qDg1", target: "_blank", rel: "noopener noreferrer" },
+    React.createElement("a", { href: "https://m.youtube.com/@f1are11_11", target: "_blank", rel: "noopener noreferrer" },
       React.createElement("img", { src: "images/youtube.png", alt: "YouTube", className: "w-8 h-8 sm:w-10 sm:h-10 hover:scale-125 transition transform duration-300" })
     ),
     React.createElement("a", { href: "https://www.instagram.com/f1are11_official", target: "_blank", rel: "noopener noreferrer" },
