@@ -174,6 +174,9 @@ function SocialSection() {
     ),
     React.createElement("a", { href: "https://x.com/standbyf1are?s=21", target: "_blank", rel: "noopener noreferrer" },
       React.createElement("img", { src: "images/x.png", alt: "X", className: "w-8 h-8 sm:w-10 sm:h-10 hover:scale-125 transition transform duration-300" })
+    ),
+    React.createElement("a", { href: "https://www.tiktok.com/@f1are1171", target: "_blank", rel: "noopener noreferrer" },
+      React.createElement("img", { src: "images/TikTok.png", alt: "TikTok", className: "w-8 h-8 sm:w-10 sm:h-10 hover:scale-125 transition transform duration-300" })
     )
   );
 }
