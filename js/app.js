@@ -7,7 +7,7 @@ const members = [
       "images/lsw.webp"
     ], 
     detailImg: "images/lswp.webp", 
-    bio: "행복하게 해드릴게요 ㅎㅎ" 
+    bio: "작은 올림이라도 오래 남는 사람이 되고 싶습니다." 
   },
   { 
     id: 2, 
@@ -16,7 +16,7 @@ const members = [
       "images/zax.webp", 
     ], 
     detailImg: "images/zaxp.webp", 
-    bio: "베스트 초이스 리부초이 놓치지 마세요!" 
+    bio: "더 열심히 할테니까 저와 함께 끝까지 가줘요!!" 
   },
   { 
     id: 3, 
@@ -25,7 +25,7 @@ const members = [
       "images/hxl.wbep"
     ], 
     detailImg: "images/hxlp.webp", 
-    bio: "지금 입덕하면 찐 팬 가능!!" 
+    bio: "아~~~~~~~~~~~~~~~~~음..." 
   },
   { 
     id: 4, 
@@ -34,7 +34,7 @@ const members = [
       "images/kgw.webp"
     ], 
     detailImg: "images/kgwp.webp", 
-    bio: "지금까지 연습했던 시간들을 플레어를 통해 보여드리겠습니다!" 
+    bio: "저에게 온 이 기회를 절대 놓치지 않겠습니다." 
   },
   { 
     id: 5, 
@@ -43,7 +43,7 @@ const members = [
       "images/zjh.webp"
     ], 
     detailImg: "images/zjhp.webp", 
-    bio: "즐기겠습니다~!" 
+    bio: "안녕하세용~" 
   },
   { 
     id: 6, 
@@ -52,7 +52,7 @@ const members = [
       "images/ll.webp"
     ], 
     detailImg: "images/llp.webp", 
-    bio: "많은 응원과 사랑을 보내주세요!" 
+    bio: "언제나 진정성 있는 모습을 보여드리는 사람이고 싶습니다." 
   },
   { 
     id: 7, 
