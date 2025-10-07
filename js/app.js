@@ -61,7 +61,7 @@ const members = [
       "images/csh.webp"
     ], 
     detailImg: "images/csh.webp", 
-    bio: "여러분들의 최애가 되는 그날까지!!!" 
+    bio: ""저에게 주어진 이 소중한 기회를 저를 응원해주시고 사랑해주시는 여러분들과 함께하고 싶습니다!!" 
   },
   { 
     id: 8, 
@@ -70,7 +70,7 @@ const members = [
       "images/kjs.webp"
     ], 
     detailImg: "images/kjsp.webp", 
-    bio: "제가 누구인지 확실히 보여드리겠습니다!" 
+    bio: "응원해주시는 팬분들에게 꼭 보답하는 사람이 될게요 :)" 
   }
 ];
 
