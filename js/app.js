@@ -2,7 +2,7 @@
 const members = [
   { 
     id: 1, 
-    name: "YOO KANG MIN", 
+    name: "LEE SANG WON", 
     profileImgs: [
       "images/min.jpeg"
     ], 
@@ -11,7 +11,7 @@ const members = [
   },
   { 
     id: 2, 
-    name: "CHUEI LI YU", 
+    name: "ZHOU AN XIN", 
     profileImgs: [
       "images/yu.jpeg", 
     ], 
@@ -20,7 +20,7 @@ const members = [
   },
   { 
     id: 3, 
-    name: "CHEN KAI WEN", 
+    name: "HE XIN LONG", 
     profileImgs: [
       "images/wen.jpeg"
     ], 
@@ -29,7 +29,7 @@ const members = [
   },
   { 
     id: 4, 
-    name: "PARK DONG GYU", 
+    name: "KIM GEON WOO", 
     profileImgs: [
       "images/gyu.jpeg"
     ], 
@@ -38,7 +38,7 @@ const members = [
   },
   { 
     id: 5, 
-    name: "KIM JUN MIN", 
+    name: "ZHANG JIA HAO", 
     profileImgs: [
       "images/jay.jpeg"
     ], 
@@ -47,7 +47,7 @@ const members = [
   },
   { 
     id: 6, 
-    name: "JUN LEE JEONG", 
+    name: "LEE LEO", 
     profileImgs: [
       "images/jeong.jpeg"
     ], 
@@ -56,7 +56,7 @@ const members = [
   },
   { 
     id: 7, 
-    name: "KANG WOO JIN", 
+    name: "CHUNG SANH HYEON", 
     profileImgs: [
       "images/jin.jpeg"
     ], 
@@ -71,33 +71,6 @@ const members = [
     ], 
     detailImg: "images/eump.jpeg", 
     bio: "제가 누구인지 확실히 보여드리겠습니다!" 
-  },
-  { 
-    id: 9, 
-    name: "SEN", 
-    profileImgs: [
-      "images/sen.jpeg"
-    ], 
-    detailImg: "images/senp.jpeg", 
-    bio: "내 미소를 보고 너가 행복해졌으면 좋겠어! 사랑해! 다이스키~" 
-  },
-   { 
-    id: 10, 
-    name: "KIM IN HU", 
-    profileImgs: [
-      "images/hu.jpeg"
-    ], 
-    detailImg: "images/hup.jpeg", 
-    bio: "지금은 부족할 수 있지만,끝까지 성장하는 모습으로 보답하겠습니다!" 
-  },
-   { 
-    id: 11, 
-    name: "MASATO", 
-    profileImgs: [
-      "images/to.jpeg"
-    ], 
-    detailImg: "images/top.jpeg", 
-    bio: "모두의 심장이 뜨거워지도록 열정과 성실함을 보여드리겠습니다!" 
   }
 ];
 
@@ -194,7 +167,7 @@ function App() {
     React.createElement("h1", {
       className: "text-2xl sm:text-3xl font-bold mb-6 fixed top-4 left-4 z-50",
       style: { fontFamily: "Sequel100Black, sans-serif" }
-    }, "F1are"),
+    }, "ALPHA DRIVE ONE"),
 
     // 카드 그리드
     React.createElement(
