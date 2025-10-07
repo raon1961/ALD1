@@ -4,72 +4,72 @@ const members = [
     id: 1, 
     name: "LEE SANG WON", 
     profileImgs: [
-      "images/min.jpeg"
+      "images/lsw.webp"
     ], 
-    detailImg: "images/minp.jpeg", 
+    detailImg: "images/lswp.webp", 
     bio: "행복하게 해드릴게요 ㅎㅎ" 
   },
   { 
     id: 2, 
     name: "ZHOU AN XIN", 
     profileImgs: [
-      "images/yu.jpeg", 
+      "images/zax.webp", 
     ], 
-    detailImg: "images/yup.jpeg", 
+    detailImg: "images/zaxp.webp", 
     bio: "베스트 초이스 리부초이 놓치지 마세요!" 
   },
   { 
     id: 3, 
     name: "HE XIN LONG", 
     profileImgs: [
-      "images/wen.jpeg"
+      "images/hxl.wbep"
     ], 
-    detailImg: "images/wenp.jpeg", 
+    detailImg: "images/hxlp.webp", 
     bio: "지금 입덕하면 찐 팬 가능!!" 
   },
   { 
     id: 4, 
     name: "KIM GEON WOO", 
     profileImgs: [
-      "images/gyu.jpeg"
+      "images/kgw.webp"
     ], 
-    detailImg: "images/gyup.jpeg", 
+    detailImg: "images/kgwp.webp", 
     bio: "지금까지 연습했던 시간들을 플레어를 통해 보여드리겠습니다!" 
   },
   { 
     id: 5, 
     name: "ZHANG JIA HAO", 
     profileImgs: [
-      "images/jay.jpeg"
+      "images/zjh.webp"
     ], 
-    detailImg: "images/jayp.jpeg", 
+    detailImg: "images/zjhp.webp", 
     bio: "즐기겠습니다~!" 
   },
   { 
     id: 6, 
     name: "LEE LEO", 
     profileImgs: [
-      "images/jeong.jpeg"
+      "images/ll.webp"
     ], 
-    detailImg: "images/jeongp.jpeg", 
+    detailImg: "images/llp.webp", 
     bio: "많은 응원과 사랑을 보내주세요!" 
   },
   { 
     id: 7, 
-    name: "CHUNG SANH HYEON", 
+    name: "CHUNG SANG HYEON", 
     profileImgs: [
-      "images/jin.jpeg"
+      "images/csh.webp"
     ], 
-    detailImg: "images/jinp.jpeg", 
+    detailImg: "images/csh.webp", 
     bio: "여러분들의 최애가 되는 그날까지!!!" 
   },
   { 
     id: 8, 
-    name: "JANG HAN EUM", 
+    name: "KIM JUN SEO", 
     profileImgs: [
-      "images/eum.jpeg"
+      "images/kjs.webp"
     ], 
-    detailImg: "images/eump.jpeg", 
+    detailImg: "images/kjsp.webp", 
     bio: "제가 누구인지 확실히 보여드리겠습니다!" 
   }
 ];
