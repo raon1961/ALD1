@@ -7,7 +7,7 @@ const members = [
       "images/lsw.jpeg"
     ], 
     detailImg: "images/lswp.jpeg", 
-    bio: "작은 올림이라도 오래 남는 사람이 되고 싶습니다." 
+    bio: "작은 울림이라도 오래 남는 사람이 되고 싶습니다." 
   },
   { 
     id: 2, 
