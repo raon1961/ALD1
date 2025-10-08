@@ -60,7 +60,7 @@ const members = [
     profileImgs: [
       "images/csh.jpeg"
     ], 
-    detailImg: "images/csh.jpeg", 
+    detailImg: "images/cshp.jpeg", 
     bio: "저에게 주어진 이 소중한 기회를 저를 응원해주시고 사랑해주시는 여러분들과 함께하고 싶습니다!!" 
   },
   { 
