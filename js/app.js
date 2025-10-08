@@ -4,72 +4,72 @@ const members = [
     id: 1, 
     name: "LEE SANG WON", 
     profileImgs: [
-      "images/lsw.webp"
+      "images/lsw.jpeg"
     ], 
-    detailImg: "images/lswp.webp", 
+    detailImg: "images/lswp.jpeg", 
     bio: "작은 올림이라도 오래 남는 사람이 되고 싶습니다." 
   },
   { 
     id: 2, 
     name: "ZHOU AN XIN", 
     profileImgs: [
-      "images/zax.webp", 
+      "images/zax.jpeg", 
     ], 
-    detailImg: "images/zaxp.webp", 
+    detailImg: "images/zaxp.jpeg", 
     bio: "더 열심히 할테니까 저와 함께 끝까지 가줘요!!" 
   },
   { 
     id: 3, 
     name: "HE XIN LONG", 
     profileImgs: [
-      "images/hxl.wbep"
+      "images/hxl.jpeg"
     ], 
-    detailImg: "images/hxlp.webp", 
+    detailImg: "images/hxlp.jpeg", 
     bio: "아~~~~~~~~~~~~~~~~~음..." 
   },
   { 
     id: 4, 
     name: "KIM GEON WOO", 
     profileImgs: [
-      "images/kgw.webp"
+      "images/kgw.jpeg"
     ], 
-    detailImg: "images/kgwp.webp", 
+    detailImg: "images/kgwp.jpeg", 
     bio: "저에게 온 이 기회를 절대 놓치지 않겠습니다." 
   },
   { 
     id: 5, 
     name: "ZHANG JIA HAO", 
     profileImgs: [
-      "images/zjh.webp"
+      "images/zjh.jpeg"
     ], 
-    detailImg: "images/zjhp.webp", 
+    detailImg: "images/zjhp.jpeg", 
     bio: "안녕하세용~" 
   },
   { 
     id: 6, 
     name: "LEE LEO", 
     profileImgs: [
-      "images/ll.webp"
+      "images/ll.jpeg"
     ], 
-    detailImg: "images/llp.webp", 
+    detailImg: "images/llp.jpeg", 
     bio: "언제나 진정성 있는 모습을 보여드리는 사람이고 싶습니다." 
   },
   { 
     id: 7, 
     name: "CHUNG SANG HYEON", 
     profileImgs: [
-      "images/csh.webp"
+      "images/csh.jpeg"
     ], 
-    detailImg: "images/csh.webp", 
-    bio: ""저에게 주어진 이 소중한 기회를 저를 응원해주시고 사랑해주시는 여러분들과 함께하고 싶습니다!!" 
+    detailImg: "images/csh.jpeg", 
+    bio: "저에게 주어진 이 소중한 기회를 저를 응원해주시고 사랑해주시는 여러분들과 함께하고 싶습니다!!" 
   },
   { 
     id: 8, 
     name: "KIM JUN SEO", 
     profileImgs: [
-      "images/kjs.webp"
+      "images/kjs.jpeg"
     ], 
-    detailImg: "images/kjsp.webp", 
+    detailImg: "images/kjsp.jpeg", 
     bio: "응원해주시는 팬분들에게 꼭 보답하는 사람이 될게요 :)" 
   }
 ];
